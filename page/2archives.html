@@ -27,13 +27,17 @@ type: page
             {% endunless %}
 
             <li>
-                <time>
-                {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-                </time>
-                <a class="title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                <div class="col-12 col-md-2"><img src="https://dummyimage.com/647x439/000/fff"></div>
+                <div class="col-12 col-md-10">
+                  <time>
+                  {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
+                  </time>
+                  <br>
+                  <a class="title d-block" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-                {% include category.html %}
-                {% include tag.html %}
+                  {% include category.html %}
+                  {% include tag.html %}
+                </div>
             </li>
 
           {% endfor %}
