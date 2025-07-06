@@ -1,0 +1,27 @@
+title: Yalin's Research Blog
+
+email: ylliu@hkmu.edu.hk
+
+description: A blog and portfolio by Yalin Liu
+
+theme: minima
+
+# Set to "/repo" if hosted at username.github.io/repo
+baseurl: ""
+
+url: "https://username.github.io" # Replace with your GitHub Pages URL
+
+markdown: kramdown
+
+paginate: 5
+
+paginate_path: "/page:num/"
+
+category_dir: categories
+
+tag_dir: tags
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
