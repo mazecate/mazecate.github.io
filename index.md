@@ -7,7 +7,7 @@ layout: default
 
 <!-- ![image](https://github.com/yalin-liu/yalin-liu.github.io/blob/master/images/yl_liu.jpg) -->
 
-<i class="fa fa-phone mr-2"></i>
+<!-- <i class="fa fa-phone mr-2"></i>
 Tel: <a href="tel:+852-31202622" title="Telephone" target="_blank">(+852) 31202622</a>
 
 <i class="fa fa-fax mr-2"></i>
@@ -17,11 +17,32 @@ Fax: <a href="tel:+852-27891170" title="Fax" target="_blank">(+852) 27891170</a>
 Email:  <a href="mailto:{{site.email}}" title="Email" target="_blank">{{site.email}}</a>
 
 <i class="fa fa-map mr-2"></i>
-Address: D1126,  Department of Electronic Engineering and Computer Science,  School of Science and Technology,  Hong Kong Metropolitan University,  Ho Man Tin,  Kowloon,  Hong Kong
+Address: D1126,  Department of Electronic Engineering and Computer Science,  School of Science and Technology,  Hong Kong Metropolitan University,  Ho Man Tin,  Kowloon,  Hong Kong -->
+
+<div class="container py-4">
+  <div class="row flex-column-reverse flex-md-row align-items-center">
+    <!-- Info Section -->
+    <div class="col-md-6 col-12">
+      <p><i class="fa fa-phone me-2"></i>
+         Tel: <a href="tel:+852-31202622" target="_blank">(+852) 31202622</a></p>
+      <p><i class="fa fa-fax me-2"></i>
+         Fax: <a href="tel:+852-27891170" target="_blank">(+852) 27891170</a></p>
+      <p><i class="fa fa-envelope me-2"></i>
+         Email: <a href="mailto:{{site.email}}" target="_blank">{{site.email}}</a></p>
+      <p><i class="fa fa-map me-2"></i>
+         Address: D1126, Department of Electronic Engineering and Computer Science, School of Science and Technology, Hong Kong Metropolitan University, Ho Man Tin, Kowloon, Hong Kong</p>
+    </div>
+
+    <!-- Image Section -->
+    <div class="col-md-6 col-12 text-center mb-3 mb-md-0">
+      <img src="https://raw.githubusercontent.com/yalin-liu/yalin-liu.github.io/refs/heads/master/images/yl_liu.jpg" class="img-fluid" alt="Profile Image" style="max-width: 200px;">
+    </div>
+  </div>
+</div>
 
 ---
 
-### **Biography**
+### **Professional Profile**
 **Yalin Liu** is currently [a senior lecturer](https://www.hkmu.edu.hk/st/people/key-staff/staff-profile/?email=ylliu&unit=S&T&po=N) at the School of Science and Technology, Hong Kong Metropolitan University. She received her Ph.D degree from Macau University of Science and Technology in 2022. From Jan. 2022 to May 2022, she worked as a research assistant at the Education University of Hong Kong. From June 2022 to Dec. 2024, she worked as a Lecturer at Hong Kong Metropolitan University. Her research interests include Space-Air-Ground Integrated Networks, IoT, Blockchain-enabled wireless networks, Web 3.0, Movable Antenna systems, ISAC, and AI solutions for Networks. 
 
 Dr. Liu is currently the principal investigator (PI) of two research grants (funded by HKMU R&D and HK RGC FDS). She has published some papers in top-tier journals and conferences including IEEE Journal on Selected Areas in Communications (JCR Q1, IF: 16.4), IEEE Transactions on Vehicular Technology (JCR Q1, IF: 6.8), IEEE Network (JCR Q1, IF: 9.3), IEEE ICC (EI and CCF C conference), and IEEE GLOBECOM (EI and CCF C conference). One of her papers, “Unmanned Aerial Vehicle for Internet of Everything: Opportunities and Challenges,” has received a high citation rate of 272 on Google Scholar as of June 20, 2025. 
