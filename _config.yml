@@ -18,6 +18,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-multiple-languages-plugin
-languages: ["en", "zh"]
+languages: ["en", "zh-CN", "zh-TW"]
 default_lang: "en"
 exclude_from_localization: ["css", "assets", "images", "js"]
