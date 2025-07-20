@@ -6,3 +6,8 @@
 4. Run ```bundle install``` in the project directory
 5. Start the Jekyll: ```jekyll serve```
 6. Open your browser and go to ```http://localhost:4000```
+
+
+# Install new plugin
+1. After update ```Gemfile```
+2. Run ```bundle install``` in the project directory
